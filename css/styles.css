@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 /* logo */
-.logo {
+.logo-header {
   color: var(--black);
   font-family: Raleway;
   font-weight: 700;
