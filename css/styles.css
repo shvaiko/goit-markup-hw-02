@@ -6,6 +6,7 @@
   --accent: #2196f3;
   --black: #000000;
   --list-address: rgba(255, 255, 255, 0.6);
+  --hover-btn: #188ce8;
   --filter-btn: #f5f4fa;
 }
 body {
@@ -94,6 +95,11 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-btn);
+  color: var(--bg-color);
 }
 /* features */
 .features-title {
